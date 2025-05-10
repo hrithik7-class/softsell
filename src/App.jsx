@@ -28,7 +28,7 @@ function App() {
         <nav className="max-w-full  flex items-center sm:justify-around px-2 py-4    bg-white justify-start  top-0 sticky mx-auto    dark:bg-background-dark">
 
           <div className='md:w-[80px] w-[65px]  top-5  ' >
-            <img src='/img2.png' alt='Netflix Logo' className='w-15 sm:w-40 sm:ml-0 ' />
+            <img src='/softsell.png' alt='Netflix Logo' className='w-15 sm:w-40 sm:ml-0 ' />
           </div>
 
           {/* Desktop Navigation Links */}
@@ -88,7 +88,7 @@ function App() {
         <WhyChooseUs />
         <Testimonials />
         <ContactForm />
-        <div className="border border-t-gray-300 border-t-1 border-l-0 border-r-0" >
+        <div className="border border-t-gray-300 border-t-1 border-l-0 border-r-0 border-b-0" >
           <Footer />
         </div>
       </div>
