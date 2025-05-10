@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  @apply bg-background-light text-text-light;
+}
+
+.dark body {
+  @apply bg-background-dark text-text-dark;
+}
+
+html{
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1,h2,h3,h4,h5,h6,input,button,{
+    @apply text-text-light dark:text-text-dark
+}
